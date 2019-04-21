@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="A">
+    <test name="B">
+        <classes>
+            <class name="com.test.testng.Stu01"/>
+            <class name="com.test.testng.Stu02"/>
+        </classes>
+    </test>
+    <test name="group">
+        <groups>
+            <run>
+                <include name="stu2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.test.testng.Stu01"/>
+            <class name="com.test.testng.Stu02"/>
+        </classes>
+    </test>
+</suite>
